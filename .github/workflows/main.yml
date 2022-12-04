@@ -30,7 +30,7 @@ jobs:
       run: |
         TZ='Asia/Shanghai'; export TZ
         npm i
-        git clone https://github.com/YanDao0313/ssl_check --depth=2
+        git clone https://github.com/yfun-lab/CheckSSL --depth=2
         npm run build
         cd CheckSSL
         chmod +x checker.sh
