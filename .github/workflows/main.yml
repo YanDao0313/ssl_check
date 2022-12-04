@@ -1,4 +1,4 @@
-name: SSL Check
+name: YD SSL Check
 
 on: 
   push:
